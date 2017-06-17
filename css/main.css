@@ -1,0 +1,203 @@
+/*
+ * Estilos de tu proyecto
+ */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #00cca3;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+
+
+}
+
+ul li{
+	display: inline-block;
+	width: 10%;
+	font-weight: 700;
+  	padding: 2px;
+  	float: right;
+}
+
+ul li a{
+	display: inline-block;
+	color: white;
+	padding: 20px 20px;
+	text-decoration: none;
+	
+
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+/*hover-estilo: cambiar el color del backgroun
+al pasar el cursor por el enlace. */
+background-color: #00cca3;
+color: #333;
+}
+.menu-container h4{
+  float: left;
+  padding: 0px 24px;
+  color: white;
+}
+header{
+  position: fixed;
+  background: gray;
+  width: 100%;
+
+  top: 0;
+}
+.menu{
+  padding: 5px 70px;
+  overflow: hidden;
+}
+
+#perfil{
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+  margin-top: 110px;
+  height: 500px;
+}
+
+.fa-star{
+	text-align: center;
+	color: white;
+	padding: 0;
+
+}
+
+.box-star{
+	display: inline-block;
+	color: white;
+}
+.rectangulo {
+	width: 100px;
+	height: 3px;
+	background: white;
+
+}
+
+
+.link{
+	display: inline-block;
+	color: white;
+	margin: 5px;
+	font-size: 13px;
+}
+
+#proyectos{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 70px 7px;
+
+}
+.box-star2{
+	display: inline-block;
+	color: white;
+}
+.rectangulo2 {
+	width: 100px;
+	height: 3px;
+	background: black;
+
+}
+
+.estrella{
+	text-align: center;
+	color: black;
+	padding: 0;
+
+}
+
+.box-proyectos{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+
+.portfolio{
+  text-align: center;
+}
+.work{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 20px 90px 10px 90px;
+	
+}
+
+.row:before, .row:after{
+	content: "";
+	display: inline-block;
+
+}
+.row:after{
+	clear: both;
+}
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;	
+	color: white;
+
+
+}
+.col-12{
+	text-align: center;
+}
+.parrafo{
+	width: 25%;
+	float: right;
+	text-align: left;
+
+
+}
+.star3{
+	display: inline-block;
+	text-align: center;
+}
+.boton{
+	border-color: white;
+	padding: 7px;
+	border: 2px;
+	border-color: white;
+	position: relative;
+	top: 200px;
+	left: 500px;
+
+}
+
+.contacto{
+	width: 25%;
+	float: right;
+	text-align: left;
+}
+
+.star4{
+	display: inline-block;
+	text-align: center;
+}

@@ -1,19 +1,8 @@
 /*
  * Estilos de tu proyecto
  */
- * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
+ 
+ /*Contenedor Flexbox*/
 body {
   /* Establece la fuente de Google aquí */
   font-family: 'Raleway', sans-serif;
@@ -23,81 +12,53 @@ body {
   background-color: #00cca3;
 }
 
-ul{
-	list-style: none;
-	padding: 0;
-	overflow: hidden;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-
-
-
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bubbler One', sans-serif;
 }
 
-ul li{
-	display: inline-block;
-	width: 10%;
-	font-weight: 700;
-  	padding: 2px;
-  	float: right;
+.flex-container{
+	display : flex;
 }
 
-ul li a{
+#menu.flex-container{
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#menu h4{
+	font-weight: 100px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+#menu a{
 	display: inline-block;
-	color: white;
-	padding: 20px 20px;
+	padding: 20px;
 	text-decoration: none;
-	
-
-}
-
-li a:hover, .dropdown:hover, .dropbtn:hover{
-/*hover-estilo: cambiar el color del backgroun
-al pasar el cursor por el enlace. */
-background-color: #00cca3;
-color: #333;
-}
-.menu-container h4{
-  float: left;
-  padding: 0px 24px;
-  color: white;
-}
-header{
-  position: fixed;
-  background: gray;
-  width: 100%;
-
-  top: 0;
-}
-.menu{
-  padding: 5px 70px;
-  overflow: hidden;
-}
-
-#perfil{
-  text-align: center;
-  color: #fff;
-  padding: 70px 7px;
-  margin-top: 110px;
-  height: 500px;
-}
-
-.fa-star{
-	text-align: center;
 	color: white;
-	padding: 0;
-
+	font-family: 'Raleway', sans-serif;
 }
 
-.box-star{
-	display: inline-block;
+#menu{
 	color: white;
+	font-family: 'Raleway', sans-serif;
+	background-color: gray;
 }
-.rectangulo {
-	width: 100px;
-	height: 3px;
-	background: white;
 
+
+.img-container img{
+	max-width: 100%;
+	position: relative;
+	top: 4px;
+	padding: 50px;
+}
+
+
+#principal.flex-container{
+	padding: 2px;
+	color: whitesmoke;
+	flex-direction: column;
+	align-items: center;
 }
 
 
@@ -106,7 +67,10 @@ header{
 	color: white;
 	margin: 5px;
 	font-size: 13px;
+	padding: 10px;
 }
+
+/*Segunda seccion*/
 
 #proyectos{
   background-color: white;
@@ -115,7 +79,7 @@ header{
   padding: 70px 7px;
 
 }
-.box-star2{
+.box-star{
 	display: inline-block;
 	color: white;
 }
